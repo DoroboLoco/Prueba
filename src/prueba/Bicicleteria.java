@@ -47,7 +47,7 @@ bicicletas.remove(bicicleta);
 
 Bicicleta buscarBicicleta(String nroDeSerie){
 for(int i=0;i<=bicicletas.size();i++){
- if (nroDeSerie==bicicletas.get(i).nroDeSerie){
+ if (nroDeSerie.equals(bicicletas.get(i).nroDeSerie)){
      return bicicletas.get(i);
 }
 } 
